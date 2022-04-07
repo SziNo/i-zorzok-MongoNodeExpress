@@ -1,0 +1,100 @@
+<% layout('layouts/boilerplate') %>
+<div class="row">
+  <h1 class="text-center">Hirdetés szerkesztése</h1>
+  <div class="col-md-6 offset-md-3">
+    <div class="card shadow">
+      <div class="card-body">
+        <form
+          action="/iDrinks/<%=iDrink._id%>?_method=PUT"
+          method="POST"
+          novalidate
+          class="validated-form"
+          enctype="multipart/form-data"
+        >
+          <div class="mb-3">
+            <label class="form-label" for="title">Cím</label>
+            <input
+              class="form-control"
+              type="text"
+              id="title"
+              name="iDrink[title]"
+              value="<%=iDrink.title%>"
+              required
+            />
+            <div class="valid-feedback">Minden stimmel!</div>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="location">Helyszín</label>
+            <input
+              class="form-control"
+              type="text"
+              id="location"
+              name="iDrink[location]"
+              value="<%=iDrink.location%>"
+              required
+            />
+            <div class="valid-feedback">Minden stimmel!</div>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="price">Ár</label>
+            <div class="input-group">
+              <span class="input-group-text" id="price-label">Ft</span>
+              <input
+                type="text"
+                class="form-control"
+                id="price"
+                placeholder="0.00"
+                aria-label="price"
+                aria-describedby="price-label"
+                name="iDrink[price]"
+                value="<%=iDrink.price%>"
+                required
+              />
+              <div class="valid-feedback">Minden stimmel!</div>
+            </div>
+          </div>
+          <div class="input-group mb-3">
+            <input
+              type="file"
+              class="form-control"
+              name="image"
+              id="image"
+              multiple
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="description">Leírás</label>
+            <textarea
+              class="form-control"
+              type="text"
+              id="description"
+              name="iDrink[description]"
+              required
+            >
+<%=iDrink.description%></textarea
+            >
+            <div class="valid-feedback">Minden stimmel!</div>
+          </div>
+          <div class="mb-3">
+            <% iDrink.images.forEach(function(img, i) { %>
+            <img src="<%=img.thumbnail %>" class="img-thumbnail" alt="" />
+            <div class="form-check-inline">
+              <input
+                type="checkbox"
+                id="image-<%=i%>"
+                name="deleteImages[]"
+                value="<%=img.filename%>"
+              />
+            </div>
+            <label for="image-<%=i%>">Töröl</label>
+            <% })%>
+          </div>
+          <div class="mb-3">
+            <button class="btn btn-primary">Szerkeszt</button>
+          </div>
+        </form>
+        <div class="valid-feedback">Minden stimmel!</div>
+      </div>
+    </div>
+  </div>
+</div>
