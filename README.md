@@ -61,6 +61,10 @@ Amennyiben van nodemon telepítve, akkor alternatív lehetőségként így is el
 ```bash
 nodemon app.js
 ```
+Ha lokális üres adatbázisunkat szeretnénk seedelni:
+```bash
+node seeds/index.js
+```
 ## 📐 Tesztelés
 A Herokun publikált applikációnk [URL](https://safe-beach-25692.herokuapp.com/)-jét bemásolva a [PageSpeed Insights (PSI)](https://pagespeed.web.dev/) nevezetű oldalon teszteltük.
 A PageSpeed Insights [Lighthouse](https://developers.google.com/web/tools/lighthouse) segítségével analízálja a megadott URL-t mind mobil (mobile) és asztali (desktop) eszkőzön, majd készít értékelést minkettőről külön-külön. Bővebb információ angolul [itt](https://developers.google.com/speed/docs/insights/v5/about) érhető el. 
