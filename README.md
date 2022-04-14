@@ -1,5 +1,5 @@
 ![Logo](https://www.thehungarianpaprika.hu/hu/papkepek/2018/11/magyar-paprika-gulyas.jpg)
-## i-zőrzők (iDrink)
+## 😎 i-zőrzők (iDrink)
 Az i-zőrzők egy egyszerű webes applikáció, amelyen országszerte lehet hirdetni a magyar ízvilág csodáit! iDrink néven látott világot, amely házikészítésű magyar italok hirdetésének szolgált volna platformot. De szomorúan tudomásul kellett vennünk, hogy hasonló néven már létezik egy webes italbolt, illetve arra is rá kellett eszmélnünk, hogy megtagadni az online teret a jó kis házi szalonkák, kolbászok és tepertők hirdetésétől minden bizonnyal főbenjáró bűnnek számítana.
 
 ## 💡 Demo - Webes applikációnk Herokun publikálva
