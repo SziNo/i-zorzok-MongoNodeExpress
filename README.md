@@ -6,7 +6,7 @@ Az i-zőrzők egy egyszerű webes applikáció, amelyen országszerte lehet hird
 
 https://safe-beach-25692.herokuapp.com/
 
-## PowerPoint Prezentáció
+## 📄 PowerPoint Prezentáció
 
 Prezentáció megtalálható: presentation/SHS-i-zőrzők.pptx
 
