@@ -14,7 +14,7 @@ https://safe-beach-25692.herokuapp.com/
 | Bootstrap 5   | EJS  |   | Cloudinary   |
 | Javascript   |   |   | Git   |
 ## ⚖️ Metodológia
-- Mode-View-Control(MVC) Architectúra.
+- Model-View-Control(MVC) Architectúra.
 - [Bootsrap 5](https://getbootstrap.com/?ref=https://githubhelp.com), CSS keretrendszerét favorizáltuk az esetek túlnyomó többségében, hiszen relatíve könnyedén lehet vele teljesen egyszerű, de mégis szép, letisztult UI-t varázsolni.
 - [Express.js](https://expressjs.com/?ref=https://githubhelp.com), Node.js keretrendszere segítségével épült fel a Back-End.
 - [PassportJs](https://github.com/jaredhanson/passport?ref=https://githubhelp.com) hitelesítés és meghatalmazás létrehozásában játszott szerepet. (Authentication & Authorization)
