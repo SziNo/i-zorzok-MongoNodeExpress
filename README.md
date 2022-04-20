@@ -8,7 +8,7 @@ https://safe-beach-25692.herokuapp.com/
 
 ## 📄 PowerPoint Prezentáció
 
-**presentation/SHS-i-zőrzők.pptx** magyarul vagy **presentation/SHS-i-zőrzők-EN.pptx** angolul.<br/>Alternatív megoldásként magyar verzió letölthető innen:<br/> https://docs.google.com/presentation/d/1vpr7dklPS8z1RmJykIH0YHc67zKkuvpj/edit?usp=sharing&ouid=107841911253819226034&rtpof=true&sd=true <br/>illetve angolul:<br/>   https://docs.google.com/presentation/d/17zO3nlzGfE6wVZCl-8RSOnvwzC4F4V3T/edit?usp=sharing&ouid=107841911253819226034&rtpof=true&sd=true
+**presentation/SHS-i-zőrzők.pptx** magyarul vagy **presentation/SHS-i-zőrzők-EN.pptx** angolul.<br/>Alternatív megoldásként magyar verzió letölthető innen:<br/><br/>  https://docs.google.com/presentation/d/1vpr7dklPS8z1RmJykIH0YHc67zKkuvpj/edit?usp=sharing&ouid=107841911253819226034&rtpof=true&sd=true <br/>illetve angolul:<br/>   https://docs.google.com/presentation/d/17zO3nlzGfE6wVZCl-8RSOnvwzC4F4V3T/edit?usp=sharing&ouid=107841911253819226034&rtpof=true&sd=true
 
 ## 🛠 Technológia
 | Front-End   | Back-End   | Database   | Deployment  |
