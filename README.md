@@ -74,7 +74,6 @@ A Herokun publikált applikációnk [URL](https://safe-beach-25692.herokuapp.com
 A PageSpeed Insights [Lighthouse](https://developers.google.com/web/tools/lighthouse) segítségével analízálja a megadott URL-t mind mobil (mobile) és asztali (desktop) eszkőzön, majd készít értékelést minkettőről külön-külön. Bővebb információ angolul [itt](https://developers.google.com/speed/docs/insights/v5/about) érhető el. 
 ## 🔒 Készítették
 - **S**zabó Sándor Péter
-- **H**ajdú Péter
 - **S**zikora Norbert
 ## 📣 Kredit
 Az SHS i-zőrzők(iDrink) ötletét és egyben vázát Colt Steele [Udemy](https://www.udemy.com/) kurzusának elvégzése adta: [The Web Developer Bootcamp 2022](https://www.udemy.com/course/the-web-developer-bootcamp/)! 
