@@ -23,7 +23,7 @@ https://safe-beach-25692.herokuapp.com/
 - [Express.js](https://expressjs.com/?ref=https://githubhelp.com), Node.js keretrendszere segítségével épült fel a Back-End.
 - [PassportJs](https://github.com/jaredhanson/passport?ref=https://githubhelp.com) hitelesítés és meghatalmazás létrehozásában játszott szerepet. (Authentication & Authorization)
 - [MongoDB Atlas](https://www.mongodb.com/)-t használjuk adatbázisunknak, ami jó magyarosan egy 'multi-cloud, multi-region database' a MongoDB alkotóitól.
-- [Embedded Javascript Templates (EJS)](https://ejs.co/?ref=https://githubhelp.com) a HTML-t helyettesítette, ismételten jó magyarosan ez egy front-end 'templating language', hasonló, mint a Jinja Pythonban. Igazából EJS-t nem használtunk volna, ha nem teljesen kezdők lennénk és legalább az egyikünk rendelkezne némi tudásal React vagy Angular területén.
+- [Embedded Javascript Templates (EJS)](https://ejs.co/?ref=https://githubhelp.com) a HTML-t helyettesítette, ismételten jó magyarosan ez egy front-end 'templating language', hasonló, mint a Jinja Pythonban. Igazából EJS-t nem használtunk volna, ha nem teljesen kezdők lennénk és legalább az egyikünk rendelkezne némi tudásal React vagy Angular terén.
 - Alapvető biztonság [Express-mongo-sanitize](https://www.npmjs.com/package/express-mongo-sanitize) és [Sanitize-html](https://www.npmjs.com/package/sanitize-html) révén. Például, ha a felhasználó mókás kedvében alert scriptet adna meg hirdetés nevének, akkor az nem engedélyezett.
 - [Cloudinary](https://cloudinary.com) a képek tárolására szolgál.
 - [Heroku](https://www.heroku.com), mint felhőszolgáltató, ahova publikáltuk(deploy) az apllikációnkat.
